@@ -210,8 +210,9 @@ export default function Seatbooking() {
       </div>
 
       <div className="screen-wrapper">
+      <h2>Look At Me!</h2>
         <div className="screen"></div>
-        <h2>All eyes this way please!</h2>
+        
 
         <div className="button-wrapper">
           <button
