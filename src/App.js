@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './component/header/Header';
 import Seatbooking from './component/seatbooking/Seatbooking';
-// import Status from './component/status/Status';
+import Status from './component/status/Status';
 import { createContext, useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -50,7 +50,7 @@ function App() {
 
         <main>
           <Seatbooking />
-          {/* <Status /> */}
+          <Status /> 
         </main>
 
         <ToastContainer progressClassName="toastProgress" bodyClassName="toastBody"/>
