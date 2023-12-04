@@ -25,3 +25,34 @@
     font-weight: 600;
     color: #808080;
 }
+
+#status .unavailable span {
+    background-color: #f84464;
+    border: 1px solid black;
+}
+
+#status .unavailable{
+    margin: 10px;
+}
+#status .available{
+    margin: 10px;
+}
+#status .selection{
+    margin: 10px;
+}
+#status .unavailable h2{
+    margin: 10px;
+}
+#status .available h2{
+    margin: 10px;
+}
+#status .selection h2{
+    margin: 10px;
+}
+#status .available span {
+    border: 1px solid black;
+}
+#status .selection span {
+    background-color: #1fd50e;
+    border: 1px solid black;
+}
